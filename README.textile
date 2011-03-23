@@ -1,0 +1,24 @@
+h1. Push Notification Proxy
+
+h2. A simple Ruby server that wraps the Notifo API
+
+bc.   $.ajax({
+    url: "http://pushproxy.heroku.com/post",
+    type: "POST",
+    data: {
+      service: 'excellentadventure',
+      secret: '123secret',
+      user: 'bill'
+      message: 'yo ted'
+    }
+  });
+
+bc.   $.ajax({
+    url: "http://pushproxy.heroku.com/subscribe",
+    type: "POST",
+    data: {
+      service: 'excellentadventure',
+      secret: '123secret',
+      user: 'bill'
+    }
+  });
