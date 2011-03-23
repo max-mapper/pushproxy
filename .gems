@@ -1,4 +1,5 @@
 sinatra
 haml
+RedCloth
 json
 notifo
